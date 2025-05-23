@@ -1,8 +1,10 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -20,7 +22,24 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-black text-text-300 antialiased min-h-screen;
+}
+
+@layer base {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    @apply border-brand-300 focus:border-text-400 focus:ring-text-400;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-text-400;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-black;
 }

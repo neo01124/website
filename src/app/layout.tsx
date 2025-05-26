@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${sourceSans.className} bg-white text-gray-900`}>
+      <body className={`${sourceSans.className} bg-background text-gray-900`}>
         <div className="min-h-screen flex flex-col">
           <main className="flex-grow py-12">
             {children}

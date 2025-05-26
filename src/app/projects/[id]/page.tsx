@@ -15,7 +15,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
-          <Link href="/" className="text-blue-600 hover:underline">
+          <Link href="/" className="text-primary underline hover:text-primary/80">
             Return to Home
           </Link>
         </div>
@@ -25,7 +25,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <Link href="/" className="text-blue-600 hover:underline mb-8 inline-block">
+      <Link href="/" className="text-primary underline hover:text-primary/80 mb-8 inline-block">
         ← Back to Home
       </Link>
       
@@ -36,7 +36,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           <h2 className="text-2xl font-semibold mb-4">Technologies Used</h2>
           <div className="flex flex-wrap gap-2">
             {project.technologies.map((tech) => (
-              <span key={tech} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
+              <span key={tech} className="bg-secondary text-heading px-3 py-1 rounded-full text-sm border border-secondary">
                 {tech}
               </span>
             ))}

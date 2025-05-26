@@ -19,14 +19,6 @@ export const projects: Project[] = [
     externalUrl: '/data/icvgip.pdf'
   },
   {
-    id: 'GSOC 1',
-    title: 'Google Summer of Code internship with BeagleBoard.org',
-    description: 'A high level interface for Pulse Width Modulation via output pins of the BeagleBoard.',
-    technologies: ['C', 'Open Source'],
-    year: 2010,
-    externalUrl: 'https://medium.com/@neo01124/google-summer-of-code-2010-high-level-interface-for-pwm-for-the-beagleboard-7e2485fb94c4'
-  },
-  {
     id: 'Single coil number',
     title: 'Single coil pickup build',
     description: 'I built a single coil pickup for my acoustic guitar using magnets salvaged from an old hard disk.',
@@ -64,14 +56,6 @@ export const projects: Project[] = [
     technologies: ['Control systems', 'Robotics'],
     year: 2008,
     externalUrl: '/data/AGV.pdf'
-  },
-  {
-    id: 'GSOC 2',
-    title: 'Google Summer of Code internship with Mixxx.org',
-    description: 'Automated key detection and pitch independent/dependent tempo shifting for the best open source Dj software.',
-    technologies: ['C++', 'Open Source'],
-    year: 2012,
-    externalUrl: 'https://medium.com/@neo01124/harmonic-mixing-features-for-mixxx-open-source-dj-ing-software-google-summer-of-code-2012-78d5685f6670'
   },
   {
     id: 'Master thesis',

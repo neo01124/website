@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build",
-    "export:gh-pages": "next build && node scripts/fix-paths.js"
+    "export": "next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",

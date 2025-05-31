@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   distDir: 'docs',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -12,7 +13,6 @@ const nextConfig = {
       },
     ],
   },
-  assetPrefix: '/',
 };
 
 module.exports = nextConfig; 

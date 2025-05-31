@@ -16,8 +16,11 @@ function processHtmlFiles(dir) {
     } else if (file.endsWith('.html')) {
       let content = fs.readFileSync(filePath, 'utf8');
       
-      // Fix asset paths
-      content = content.replace(/(src|href)="\/(?!\/)/g, '$1="/website/');
+      // Fix all asset paths (including _next directory)
+      content = content.replace(/(src|href)="\/(_next|fonts|images)/g, '$1="/website/$2');
+      
+      // Fix any remaining absolute paths that don't start with http or //
+      content = content.replace(/(src|href)="\/(?!\/|http)/g, '$1="/website/');
       
       fs.writeFileSync(filePath, content);
     }

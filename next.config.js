@@ -13,6 +13,9 @@ const nextConfig = {
       },
     ],
   },
+  // No basePath needed since we're serving from docs folder
+  basePath: '',
+  assetPrefix: '',
 };
 
 module.exports = nextConfig; 

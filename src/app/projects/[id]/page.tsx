@@ -1,6 +1,10 @@
 import { projects } from '@/data/projects';
 import Link from 'next/link';
 
+export function generateStaticParams() {
+  return projects.map(project => ({ id: project.id }));
+}
+
 interface ProjectPageProps {
   params: {
     id: string;

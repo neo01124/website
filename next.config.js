@@ -13,9 +13,9 @@ const nextConfig = {
       },
     ],
   },
-  // No basePath needed since we're serving from docs folder
-  basePath: '',
-  assetPrefix: '',
+  // Make all paths relative to the repository root
+  basePath: process.env.NODE_ENV === 'production' ? '/website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/website/' : '',
 };
 
 module.exports = nextConfig; 

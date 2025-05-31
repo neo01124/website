@@ -32,7 +32,7 @@ export default function Home() {
             <div className="flex flex-col items-center gap-6 mb-8">
               <div className="relative w-32 h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-primary">
                 <Image
-                  src="/images/profile.png"
+                  src="images/profile.png"
                   alt="Profile picture"
                   fill
                   className="object-cover rounded-full"

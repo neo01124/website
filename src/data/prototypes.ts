@@ -14,7 +14,7 @@ export const prototypes: Prototype[] = [
         title: 'Genres with largest vocabularies',
         description: 'An analysis of the vocabulary sizes of 8 popular genres.',
         year: 2015,
-        imageUrl: '/images/prototypes/mxm_vocabulary_genres.jpg',
+        imageUrl: 'images/prototypes/mxm_vocabulary_genres.jpg',
         url: 'http://lab.musixmatch.com/vocabulary_genres/',
         technologies: ['Python', 'Javascript', 'Data Analysis']
     },
@@ -23,7 +23,7 @@ export const prototypes: Prototype[] = [
         title: 'Most profane artists in music',
         description: 'A comparison of profanity counts of the most googled artists.',
         year: 2015,
-        imageUrl: '/images/prototypes/mxm_profanity_artists.jpg',
+        imageUrl: 'images/prototypes/mxm_profanity_artists.jpg',
         url: 'http://lab.musixmatch.com/profanity_representative_artists/',
         technologies: ['Python', 'Javascript', 'Data Analysis']
     },
@@ -32,7 +32,7 @@ export const prototypes: Prototype[] = [
         title: 'Most profane genres in music',
         description: 'An analysis of profanity in music and, a comparison of profanity counts and profanities used for 8 popular genres.',
         year: 2015,
-        imageUrl: '/images/prototypes/mxm_profanity_genres.jpg',
+        imageUrl: 'images/prototypes/mxm_profanity_genres.jpg',
         url: 'http://lab.musixmatch.com/profanity_genres/',
         technologies: ['Python', 'Javascript', 'Data Analysis']
     },
@@ -41,7 +41,7 @@ export const prototypes: Prototype[] = [
         title: "Adele\'s Hello vs Tom Waits\' Martha",
         description: "An analysis of the similarity between these two songs.",
         year: 2015,
-        imageUrl: '/images/prototypes/mxm_adele1.jpg',
+        imageUrl: 'images/prototypes/mxm_adele1.jpg',
         url: 'https://lab.musixmatch.com/hello_martha/',
         technologies: ['Python', 'Bologna']
     },

@@ -15,10 +15,10 @@ const nextConfig = {
   },
   // Configure for GitHub Pages
   basePath: '/website',
-  assetPrefix: '/website/',
+  assetPrefix: '/website',
   // Ensure all assets are loaded from the correct path
   webpack: (config) => {
-    config.output.publicPath = '/website/_next/';
+    // Remove the publicPath setting as it's handled by assetPrefix
     return config;
   },
 };

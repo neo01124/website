@@ -39,7 +39,7 @@ export const projects: Project[] = [
     title: 'Internship at Yamaha Music R&D, Japan',
     description: 'I interned with the Vocaloid R&D team to improve phonetic segmentation for training data.',
     technologies: ['Python', 'Music Information Retrieval'],
-    year: 2012,
+    year: 2013,
     externalUrl: 'https://medium.com/@neo01124/harmonic-mixing-features-for-mixxx-open-source-dj-ing-software-google-summer-of-code-2012-78d5685f6670'
   },
   {
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     title: 'Improving automatic phonetic segmentation for creating singing voice synthesizer corpora.',
     description: 'Machine learning models (random forests) applied to corpora of singing for the Vocaloid. This was my master\'s thesis.',
     technologies: ['Python', 'scikit-learn', 'Music Information Retrieval'],
-    year: 2012,
+    year: 2013,
     externalUrl: '/data/master_thesis.pdf'
   },
   {
